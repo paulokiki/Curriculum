@@ -1,0 +1,243 @@
+
+@font-face { font-family: Crem-craker;src: url(/fonts/Cream\ Cake.otf);}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {height:100%;}
+
+.header{
+    background-image: linear-gradient(to right, #0CB57B , #002453);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    height: 30vh;
+    padding: 20px;
+    box-shadow: 0px 6px 7px -3px #707070;
+    -webkit-box-shadow: 0px 6px 7px -3px #707070;
+    -moz-box-shadow: 0px 6px 7px -3px #707070;
+}
+
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    background: #0CB57B;   
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    box-shadow: 0 5px 10px rgb(49, 49, 49);
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
+
+.iconNav{color:#ffffff; font-size: 40px;}
+
+.menu li a{ padding: 30px;}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 600px;
+    height: 300px;
+    max-width: 1000px;
+    margin: -100px auto; /* Top - */
+    box-shadow: 0px 6px 7px -3px #707070;
+    -webkit-box-shadow: 0px 6px 7px -3px #707070;
+    -moz-box-shadow: 0px 6px 7px -3px #707070;
+    border:solid 1px rgb(177, 177, 177)
+}
+
+
+.info{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: rgb(90, 90, 90);
+}
+
+.info h2{
+   font-size: 20px;
+   color: #00245382;
+}
+
+.info .infoDiv{
+    margin-top: 20px;
+    border-top: solid 1px #0cb57a60;
+    
+}
+.info p {
+    margin-top: 7px;
+}
+.info p a{
+    color: rgb(82, 82, 82);
+}
+
+.infoFooter{
+    background-image: linear-gradient(to right, #0CB57B , #002453);
+    width: 100%;
+    height: 60px;
+    position: relative;
+    border-radius: 5px;
+    bottom: -30px;
+}
+
+.infoFooter:hover{
+    transition: 1s;
+    border-radius: 50px;
+    bottom: -15px;
+    box-shadow: 0px 5px 10px #007049;
+}
+
+.iconFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+#resume{
+    background-image: linear-gradient(to right, #0CB57B , #002453);
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    width: 522px;
+    height: 210px;
+    padding: 40px;
+    margin-left: 50%;
+    margin-top: 200px;
+    box-shadow: 0px 6px 7px -3px #707070;
+    -webkit-box-shadow: 0px 6px 7px -3px #707070;
+    -moz-box-shadow: 0px 6px 7px -3px #707070;
+    border-radius: 50px 0 50px 0;
+    transform: translateX(-50%);
+    border: solid 1px rgb(136, 136, 136);
+}
+
+
+.footer{
+    background-image: linear-gradient(to right, #0CB57B , #002453);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    top: 130%;
+    box-shadow: 0px -6px 7px -3px #707070;
+    -webkit-box-shadow: 0px -6px 7px -3px #707070;
+    -moz-box-shadow: 0px -6px 7px -3px #707070;
+}
+
+.footer a{
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #003522;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+@media (max-width: 960px)
+{
+ .card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    max-width: 1000px;
+    border-radius: 100px 0 0 0;
+    border:solid 1px rgb(177, 177, 177)
+ }
+
+ .menu{display: none;}
+}
+
+.footer{
+    top: 150%;
+}
+
+
+
+
+@media (max-width: 620px){
+h1{
+    font-size: 3em;
+}
+.card{
+    max-width: 95vw;
+    height:55vh;
+}
+.info{
+   /* topo | direita | inferior | esquerda */
+    margin: 10px 0 0 50%;
+    transform: translateX(-50%);
+}
+
+.card img{
+   display: none;
+}
+
+.header{
+    height: 15vh;
+}
+
+.header img{
+    max-width:100%;
+}
+
+
+.footer{
+    top: 230vh;
+}
+
+.footer a{
+  font-size: 15.9px;
+}
+
+.infoFooter{
+    position: absolute;
+    width: 93vw;
+    height: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 82%;
+    border-radius: 5px;
+    bottom: -30px;
+}
+
+#resume{
+    color: white;
+    font-size: 1.3em;
+    padding: 25px;
+    max-width: 77vw;
+    height: 120vh;
+    
+}
+
+
+
+
+}
