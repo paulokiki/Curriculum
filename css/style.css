@@ -1,0 +1,355 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {height:100%;
+background-color: #ebebeb;}
+
+
+
+
+.header{
+    background-color:  #0CB57B;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    height: 40vh;
+    padding: 20px;
+    opacity: none;
+    box-shadow: 0px 6px 7px -3px #707070;
+    -webkit-box-shadow: 0px 6px 7px -3px #707070;
+    -moz-box-shadow: 0px 6px 7px -3px #707070;
+}
+
+.header h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+}
+
+.circle{
+    background: #0CB57B;   
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: solid 1px rgba(104, 104, 104, 0.083);
+}
+
+.circle:hover{
+    box-shadow: 0 5px 10px rgb(49, 49, 49);
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
+
+.iconNav{color:#ffffff; font-size: 33px;}
+
+.menu li a{ padding: 30px;}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   z-index: 1;
+    width: 600px;
+    height: 300px;
+  
+    margin: -140px auto; 
+    box-shadow: 0px 6px 7px -3px #707070;
+    -webkit-box-shadow: 0px 6px 7px -3px #707070;
+    -moz-box-shadow: 0px 6px 7px -3px #707070;
+    border:solid 1px rgb(177, 177, 177)
+}
+
+
+.info{
+   width: 374.64px;
+   
+    padding: 0px;
+    
+    color: rgb(90, 90, 90);
+}
+
+.info h2{
+   font-size: 20px;
+   font-weight: 400;
+   margin: 10px;
+   color: rgb(104, 103, 103);
+}
+
+.info .infoDiv{
+   
+   margin-top: 30px; 
+   margin: 10px;  
+   border-top: solid 1px #33333360;
+    
+}
+.info p {
+    margin-top: 7px;
+}
+.info p a{
+    color: rgb(84, 83, 83);
+}
+
+.btnDownload{
+    background-color:  #0CB57B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 68px;
+    margin-top: 56px;
+ 
+    
+    
+}
+
+
+.iconFooter{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+    
+
+
+#longText{
+    display: none;
+}
+
+
+#btnReadLess{
+    display: none;
+}
+
+#photoMobile{
+    display: none;
+}
+
+
+#resume{
+    background-color: #fff;
+    color: rgb(77, 77, 77);
+    display: flex;
+    flex-wrap: wrap;
+    width: 522px;
+    height: 100%;
+    text-align: justify;
+    padding: 30px 30px 70px 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 300px;
+    box-shadow: 0px 6px 7px -3px #707070;
+    -webkit-box-shadow: 0px 6px 7px -3px #707070;
+    -moz-box-shadow: 0px 6px 7px -3px #707070;
+    
+    border: solid 1px rgb(179, 177, 177);
+    
+    
+}
+
+/*----------------------------------SKILLS BAR-----------------------------------------------------------------------------*/
+.skills{
+    
+    flex-wrap: wrap;
+    width: 100%;
+    height: 430px;
+    margin-top: 40px;
+}
+
+
+@keyframes skillBar {from {width: 0%;}}
+
+
+#html, 
+#css, 
+#js,
+#php,
+#me, 
+#hardWare,
+#rede, 
+#wp{
+    background-color: #0CB57B;
+    height: 10px;
+    animation-duration: 2s;
+    animation-name: skillBar;
+}
+
+
+.skillBar{
+    
+    background-color: rgb(214, 214, 214);
+    height: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#html{width: 60%;}
+
+#css{width: 45%;}
+
+#js{width: 25%;}
+
+#php{width: 10%;}
+
+#wp{width: 20%;}
+
+#me{width: 25%;}
+
+#hardWare{width: 60%;}
+
+#rede{width: 40%;}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+.btnRead{
+    background-color:#0CB57B;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    width: 90px;
+    height: 90px;
+    
+    
+   
+}
+
+
+
+.footer{
+    background-color:  #0CB57B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+
+
+    box-shadow: 0px -6px 7px -3px #707070;
+    -webkit-box-shadow: 0px -6px 7px -3px #707070;
+    -moz-box-shadow: 0px -6px 7px -3px #707070;
+}
+
+.footer a {
+    color: white;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media (max-width: 960px)
+{
+
+
+   .menu{
+        display: none;
+    }
+
+  .header h1{
+      display: none;
+  }
+    
+ 
+ 
+    .card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    max-width: 1000px;
+    border-radius: 100px 0 0 0;
+    border:solid 1px rgb(177, 177, 177)
+ }
+
+ 
+
+ .btnRead{
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+}
+
+
+
+
+
+@media (max-width: 620px){
+ 
+.card{
+    max-width: 95vw;
+    height:55vh;
+}
+.info{
+   /* topo | direita | inferior | esquerda */
+    margin: 10px 0 0 50%;
+    transform: translateX(-50%);
+}
+
+.card img{
+   display: none;
+}
+
+.header{
+    height: 15vh;
+}
+
+
+
+
+
+
+
+.btnDownload{
+    position: absolute;
+    width: 94vw;
+    height: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 66%;
+}
+
+
+
+
+
+
+
+#resume{
+    padding: 30px 30px 90px 30px;
+    max-width: 77vw;
+    
+}
+
+
+
+
+}
