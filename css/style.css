@@ -31,11 +31,6 @@ background-color: #ebebeb;}
     -moz-box-shadow: 0px 6px 7px -3px #707070;
 }
 
-#logo:hover{
-    box-shadow: 0 5px 10px rgb(49, 49, 49);
-    transform: translateY(-10px);
-    transition: 1s;
-}
 
 #logo{
     margin-bottom: 150px;
