@@ -71,7 +71,7 @@ background-color: #ebebeb;}
 .card{
     background-color: rgb(255, 255, 255);
     display: flex;
-   z-index: 1;
+   
     width: 600px;
     height: 300px;
   
